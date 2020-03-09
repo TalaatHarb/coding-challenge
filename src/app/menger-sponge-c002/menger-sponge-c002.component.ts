@@ -3,8 +3,6 @@ import { Component, OnInit, OnDestroy } from '@angular/core';
 import * as p5 from 'p5';
 import { Box } from './models/box.model';
 
-
-
 @Component({
   selector: 'app-menger-sponge-c002',
   templateUrl: './menger-sponge-c002.component.html',
