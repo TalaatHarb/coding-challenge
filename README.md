@@ -1,5 +1,6 @@
 # Coding Challenge
 Building cool animations and simulations in angular based on the coding challenges from the coding train YouTube channel, https://thecodingtrain.com/CodingChallenges/
+The code will depend alot on the code in this repository: https://github.com/CodingTrain/website/tree/master/CodingChallenges
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.3.
 
