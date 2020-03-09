@@ -1,1 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
+.p5-canvas-parent{
+    border: solid 1px red;
+    display: inline-block;
+    padding: 1vw;
+    align-content: center;
+}
+
+.p5-canvas-parent > canvas{
+    padding: 0px;
+    margin: 0px;
+}
