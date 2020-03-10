@@ -6,10 +6,23 @@
     <div gdArea="side">
         Side
     </div>
-    <div gdArea="content">
-        Content
-    </div>
-    <div gdArea="footer">
-        Footer
+    <div gdArea="content" fxLayout="column" fxLayoutWrap fxLayoutGap="0.5%" fxLayoutAlign="center">
+        <div class="container" fxLayout="row" fxLayout.xs="column" fxLayoutWrap fxLayoutGap="0.5%"
+            fxLayoutAlign="center">
+            <app-challenge-card [challenge]="challenge" fxFlex="20%"></app-challenge-card>
+            <app-challenge-card [challenge]="challenge" fxFlex="20%"></app-challenge-card>
+            <app-challenge-card [challenge]="challenge" fxFlex="20%"></app-challenge-card>
+            <app-challenge-card [challenge]="challenge" fxFlex="20%"></app-challenge-card>
+        </div>
+        <div class="container" fxLayout="row" fxLayout.xs="column" fxLayoutWrap fxLayoutGap="0.5%"
+            fxLayoutAlign="center">
+            <app-challenge-card [challenge]="challenge" fxFlex="20%"></app-challenge-card>
+            <app-challenge-card [challenge]="challenge" fxFlex="20%"></app-challenge-card>
+            <app-challenge-card [challenge]="challenge" fxFlex="20%"></app-challenge-card>
+            <app-challenge-card [challenge]="challenge" fxFlex="20%"></app-challenge-card>
+        </div>
+        <div gdArea="footer">
+            Footer
+        </div>
     </div>
 </div>

@@ -1,0 +1,17 @@
+<mat-card class="challenge-card">
+    <mat-card-header>
+        <div mat-card-avatar class="header-image"></div>
+        <mat-card-title>{{challenge.title}}</mat-card-title>
+        <mat-card-subtitle>{{challenge.subtitle}}</mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image src="{{challenge.imageLink}}" alt="Photo of a Challenge">
+    <mat-card-content>
+        <p>
+            {{challenge.content}}
+        </p>
+    </mat-card-content>
+    <mat-card-actions>
+        <button mat-raised-button color="primary" [routerLink]="challenge.challengeLink">Go to challenge</button>
+        <button mat-raised-button color="primary" [routerLink]="challenge.codeLink">Go to code</button>
+    </mat-card-actions>
+</mat-card>
