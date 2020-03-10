@@ -1,9 +1,9 @@
 export class Challenge {
-    title: string;
-    subtitle: string;
-    content: string;
-    challengeLink: string;
-    codeLink: string;
-    videoLinks: string[];
-    imageLink: string;
+    title = '';
+    subtitle = '';
+    content = '';
+    challengeLink = '';
+    codeLink = '';
+    videoLinks: string[] = [];
+    imageLink = '';
 }

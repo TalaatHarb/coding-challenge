@@ -11,6 +11,9 @@ export class ChallengeCardComponent implements OnInit {
   @Input() challenge: Challenge;
 
   constructor() {
+    if(!this.challenge){
+      this.challenge = new Challenge();
+    }
   }
 
   ngOnInit(): void {
